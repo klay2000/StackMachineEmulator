@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InstructionDecoderTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-10-14T15:45:00" hostname="thoughtpad" time="0.011">
+  <properties/>
+  <testcase name="LoadAIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.003"/>
+  <testcase name="WrMemIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.001"/>
+  <testcase name="PopArgIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.0"/>
+  <testcase name="LoadImmIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.0"/>
+  <testcase name="PushIPIsDecodedCorrecly" classname="InstructionDecoderTest" time="0.001"/>
+  <testcase name="RdMemIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.0"/>
+  <testcase name="ImmediateIsdecodedCorrectly" classname="InstructionDecoderTest" time="0.0"/>
+  <testcase name="PopIPIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.001"/>
+  <testcase name="ArgSelIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.0"/>
+  <testcase name="CondIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.0"/>
+  <testcase name="PushArgIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.0"/>
+  <testcase name="FCodeIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.001"/>
+  <testcase name="LoadBIsDecodedCorrectly" classname="InstructionDecoderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

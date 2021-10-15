@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AluTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-10-14T15:45:00" hostname="thoughtpad" time="0.021">
+  <properties/>
+  <testcase name="FCodeIsFalseThenResultIsFalse" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsTrueThenResultIsTrue" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsXorThenResultIsAXorB" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsSubtractionThenResultIsAMinusB" classname="AluTest" time="0.0"/>
+  <testcase name="FCodeIsNotThenResultIsNotA" classname="AluTest" time="0.0"/>
+  <testcase name="AIsUpdatedThenResultIsUpdated" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsLeftShiftThenResultIsAShiftedLeftB" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsRightShiftThenResultIsAShiftedRightB" classname="AluTest" time="0.0"/>
+  <testcase name="FCodeIsIncrementAThenResultIsAPlusOne" classname="AluTest" time="0.0"/>
+  <testcase name="BIsUpdatedThenResultIsUpdated" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsAdditionThenResultIsAPlusB" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsMultiplicationThenResultIsATimesB" classname="AluTest" time="0.003"/>
+  <testcase name="FCodeIsUpdatedThenResultIsUpdated" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsOrThenResultIsAOrB" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsDivisionThenResultIsADividedByB" classname="AluTest" time="0.0"/>
+  <testcase name="FCodeIsDecrementAThenResultIsAMinusOne" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsAndThenResultIsAAndB" classname="AluTest" time="0.001"/>
+  <testcase name="FCodeIsPassBThenResultIsB" classname="AluTest" time="0.0"/>
+  <testcase name="FCodeIsPassAThenResultIsA" classname="AluTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
