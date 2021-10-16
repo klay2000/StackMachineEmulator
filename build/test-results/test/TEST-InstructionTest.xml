@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InstructionTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-10-16T19:57:26" hostname="DESKTOP-SRQN4L0" time="0.002">
+  <properties/>
+  <testcase name="fCodeIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <testcase name="argSelIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <testcase name="loadBIsDecodedCorrectly" classname="InstructionTest" time="0.001"/>
+  <testcase name="immediateIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <testcase name="pushArgIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <testcase name="loadAIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <testcase name="wrMemIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <testcase name="pushIPIsDecodedCorrecly" classname="InstructionTest" time="0.0"/>
+  <testcase name="rdMemIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <testcase name="condIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <testcase name="popArgIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <testcase name="loadImmIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <testcase name="popIPIsDecodedCorrectly" classname="InstructionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

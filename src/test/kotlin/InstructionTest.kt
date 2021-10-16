@@ -3,72 +3,72 @@ import kotlin.test.assertEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
-internal class InstructionDecoderTest {
+internal class InstructionTest {
 
     private val instruction = Instruction(0xAAAAAAAAu)
 
     @Test
-    fun LoadImmIsDecodedCorrectly(){
+    fun loadImmIsDecodedCorrectly(){
         assertTrue(instruction.ldimm)
     }
 
     @Test
-    fun ImmediateIsdecodedCorrectly(){
+    fun immediateIsDecodedCorrectly(){
         assertEquals(0x2AAAAAAAu, instruction.imm)
     }
 
     @Test
-    fun LoadAIsDecodedCorrectly(){
+    fun loadAIsDecodedCorrectly(){
         assertFalse(instruction.lda)
     }
 
     @Test
-    fun LoadBIsDecodedCorrectly(){
+    fun loadBIsDecodedCorrectly(){
         assertTrue(instruction.ldb)
     }
 
     @Test
-    fun ArgSelIsDecodedCorrectly(){
+    fun argSelIsDecodedCorrectly(){
         assertEquals(0b01u, instruction.argsel)
     }
 
     @Test
-    fun PushArgIsDecodedCorrectly(){
+    fun pushArgIsDecodedCorrectly(){
         assertFalse(instruction.pusharg)
     }
 
     @Test
-    fun  PopArgIsDecodedCorrectly(){
+    fun  popArgIsDecodedCorrectly(){
         assertTrue(instruction.poparg)
     }
 
     @Test
-    fun PushIPIsDecodedCorrecly(){
+    fun pushIPIsDecodedCorrecly(){
         assertFalse(instruction.puship)
     }
 
     @Test
-    fun PopIPIsDecodedCorrectly(){
+    fun popIPIsDecodedCorrectly(){
         assertTrue(instruction.popip)
     }
 
     @Test
-    fun FCodeIsDecodedCorrectly(){
+    fun fCodeIsDecodedCorrectly(){
         assertEquals(0x5u, instruction.fcode)
     }
 
     @Test
-    fun WrMemIsDecodedCorrectly(){
+    fun wrMemIsDecodedCorrectly(){
         assertFalse(instruction.wrmem)
     }
 
     @Test
-    fun RdMemIsDecodedCorrectly(){
+    fun rdMemIsDecodedCorrectly(){
         assertTrue(instruction.ldmem)
     }
 
     @Test
-    fun CondIsDecodedCorrectly(){
+    fun condIsDecodedCorrectly(){
         assertEquals(0b01u, instruction.cond)
     }
 

@@ -8,26 +8,26 @@ internal class StackTest {
     private var stack = Stack()
 
     @BeforeEach
-    fun ResetStack(){
+    fun resetStack(){
         stack = Stack()
     }
 
     @Test
-    fun WhenStackIsEmptyPoppingDoesNothing(){
+    fun whenStackIsEmptyPoppingDoesNothing(){
         stack.pop()
 
         assertEquals(0u, stack.getTop().or(stack.getSecond()))
     }
 
     @Test
-    fun WhenPushingTopNumberIsEqualToPushedNumber(){
+    fun whenPushingTopNumberIsEqualToPushedNumber(){
         stack.push(10u)
 
         assertEquals(10u, stack.getTop(),)
     }
 
     @Test
-    fun WhenPushingTwiceSecondNumberIsEqualToFirstPushedNumber(){
+    fun whenPushingTwiceSecondNumberIsEqualToFirstPushedNumber(){
         stack.push(1u)
         stack.push(2u)
 
@@ -35,7 +35,7 @@ internal class StackTest {
     }
 
     @Test
-    fun WhenPoppingANumberTopNumberChanges(){
+    fun whenPoppingANumberTopNumberChanges(){
         stack.push(1u)
 
         var top = stack.getTop()
@@ -46,7 +46,7 @@ internal class StackTest {
     }
 
     @Test
-    fun WhenPoppingANumberSecondNumberChanges(){
+    fun whenPoppingANumberSecondNumberChanges(){
         stack.push(1u)
         stack.push(2u)
 

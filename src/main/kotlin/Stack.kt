@@ -2,25 +2,25 @@ object StackConstants{
     val STACK_WORDS = 4194304u
 }
 
-class Stack {
+class Stack : IStack {
 
     private val stack = mutableListOf<UInt>()
 
-    fun getTop(): UInt {
+    override fun getTop(): UInt {
         return if(stack.size.toUInt() > 0u) stack[0]
         else 0u
     }
 
-    fun getSecond(): UInt{
+    override fun getSecond(): UInt{
         return if(stack.size.toUInt() > 1u) stack[1]
         else 0u
     }
 
-    fun push(a: UInt){
+    override fun push(a: UInt){
         if(stack.size.toUInt() < StackConstants.STACK_WORDS) stack.add(0, a)
     }
 
-    fun pop(){
+    override fun pop(){
         if(stack.size.toUInt() > 0u) stack.removeAt(0)
     }
 }

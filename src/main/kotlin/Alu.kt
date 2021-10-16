@@ -1,17 +1,17 @@
-class Alu {
-    var result :UInt = 0u
+class Alu : IAlu {
+    override var result :UInt = 0u
     private set
-    var a :UInt = 0u
+    override var a :UInt = 0u
         set(value) {
             field = value
             compute()
         }
-    var b :UInt = 0u
+    override var b :UInt = 0u
         set(value) {
             field = value
             compute()
         }
-    var fcode :UInt = 0u
+    override var fcode :UInt = 0u
         set(value) {
             field = value
             compute()
